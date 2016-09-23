@@ -1,0 +1,5 @@
+name: Hazelcast 
+description: |
+  Hazelcast, In-Memory DataGrid
+version: 3.6
+category: In-Memory DataGrid
