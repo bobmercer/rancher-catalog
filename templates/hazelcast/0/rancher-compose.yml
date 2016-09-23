@@ -1,0 +1,17 @@
+.catalog:
+  name: "Hazelcast"
+  version: "3.7.1-rancher1"
+  description: "In-Memory Data Grid"
+  questions:
+    - variable: cluster_name
+      description: "Unique name to assign to your Hazelcast cluster."
+      label: "Cluster Name"
+      type: "string"
+      required: true
+      default: "dev"
+hazelcast-node:
+  metadata:
+    hazelcast:
+      config:
+        cluster.name: "${cluster_name}"
+        node.name: "$${HOSTNAME}"
