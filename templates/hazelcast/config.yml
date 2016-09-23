@@ -1,5 +1,8 @@
-name: Hazelcast 
+name: Hazelcast
 description: |
-  Hazelcast, In-Memory DataGrid
-version: 3.6
-category: In-Memory DataGrid
+  Hazelcast is an open source in-memory data grid based on Java.
+version: 3.7.1
+category: Data Grid
+maintainer: Skysoft-ATM
+license: # The license
+projectURL: # A URL related to the catalog entry
