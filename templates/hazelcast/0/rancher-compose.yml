@@ -1,6 +1,6 @@
 .catalog:
   name: "Hazelcast"
-  version: "3.7.1-rancher1"
+  version: "3.7.1"
   description: "In-Memory Data Grid"
   questions:
     - variable: cluster_name
