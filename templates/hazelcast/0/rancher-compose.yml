@@ -9,7 +9,7 @@
       type: "string"
       required: true
       default: "dev"
-hazelcast-node:
+hazelcast-datanodes:
   metadata:
     hazelcast:
       config:
