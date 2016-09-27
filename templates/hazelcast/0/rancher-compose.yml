@@ -15,7 +15,12 @@
       type: "string"
       required: true
       default: "dev-pass"
-      
+    - variable: management_center_enabled
+      description: "Enable management center"
+      label: "Management center"
+      type: "boolean"
+      required: true
+      default: false      
 hazelcast-datanodes:
   metadata:
     hazelcast:
