@@ -4,14 +4,22 @@
   description: "In-Memory Data Grid"
   questions:
     - variable: cluster_name
-      description: "Unique name to assign to your Hazelcast cluster."
+      description: "By specifying a cluster name, you can separate your clusters in a simple way."
       label: "Cluster Name"
       type: "string"
       required: true
       default: "dev"
+    - variable: cluster_password
+      description: "Password associated with the cluster name"
+      label: "Cluster Name"
+      type: "string"
+      required: true
+      default: "dev-pass"
+      
 hazelcast-datanodes:
   metadata:
     hazelcast:
       config:
         cluster.name: "${cluster_name}"
+        cluster.password: "${cluster_password}"
         node.name: "$${HOSTNAME}"
