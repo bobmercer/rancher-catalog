@@ -11,7 +11,7 @@
       default: "dev"
     - variable: cluster_password
       description: "Password associated with the cluster name"
-      label: "Cluster Name"
+      label: "Cluster Password"
       type: "string"
       required: true
       default: "dev-pass"
