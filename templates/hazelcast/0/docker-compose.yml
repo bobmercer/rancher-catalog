@@ -11,4 +11,4 @@ hazelcast-base-datanode:
     io.rancher.container.hostname_override: container_name
   volumes:
     - /opt/hazelcast
-  image: hazelcast/hazelcast:3.7.1
+  image: skysoft/hazelcast-server:3.7.1
