@@ -21,7 +21,7 @@
       type: "boolean"
       required: true
       default: false      
-hazelcast-datanodes:
+hazelcast-conf:
   metadata:
     hazelcast:
       config:
