@@ -27,4 +27,3 @@ hazelcast-conf:
       config:
         cluster.name: "${cluster_name}"
         cluster.password: "${cluster_password}"
-        node.name: "$${HOSTNAME}"
