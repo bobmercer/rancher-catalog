@@ -1,5 +1,5 @@
 hazelcast-conf:
-  image: skysoft/hazelcast-conf:1.0.0
+  image: bobmercer/hazelcast-conf:1.0.0
   labels:
     io.rancher.container.hostname_override: container_name
     io.rancher.sidekicks: hazelcast-node
@@ -11,4 +11,4 @@ hazelcast-node:
     io.rancher.container.hostname_override: container_name
   volumes:
     - /opt/hazelcast
-  image: skysoft/hazelcast-server:3.7.1
+  image: bobmercer/hazelcast-server:3.7.1
